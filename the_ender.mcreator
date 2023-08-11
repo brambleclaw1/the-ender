@@ -1,0 +1,145 @@
+{
+  "mod_elements": [
+    {
+      "name": "TheEnderTab",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_ender_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "TheEnder",
+      "type": "dimension",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_ender",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_ender/dimension_type/the_ender.json",
+          "src/main/resources/data/the_ender/dimension/the_ender.json",
+          "src/main/java/net/mcreator/theender/world/dimension/TheEnderDimension.java"
+        ]
+      }
+    },
+    {
+      "name": "EnderPortalEntityCollidesInTheBlock",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_portal_entity_collides_in_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theender/procedures/EnderPortalEntityCollidesInTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EnderPortal",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_portal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theender/block/EnderPortalBlock.java",
+          "src/main/resources/assets/the_ender/models/item/ender_portal.json",
+          "src/main/resources/assets/the_ender/blockstates/ender_portal.json",
+          "src/main/resources/assets/the_ender/models/block/ender_portal.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "DragonTable",
+      "type": "loottable",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/ender_dragon.json"
+        ]
+      },
+      "path": "~/LootTable"
+    },
+    {
+      "name": "EndForest",
+      "type": "biome",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_forest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_ender/worldgen/biome/end_forest.json"
+        ]
+      },
+      "path": "~/Biomes"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.the_ender.ender_portal": "Ender Portal",
+      "biome.the_ender.end_forest": "End Forest",
+      "item_group.the_ender.the_ender_tab": "The Ender+"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "Procedures",
+        "children": []
+      },
+      {
+        "name": "LootTable",
+        "children": []
+      },
+      {
+        "name": "Biomes",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "the_ender",
+    "modName": "The Ender+",
+    "version": "1.0.0",
+    "description": "Upgrades the end.",
+    "author": "gh5674",
+    "websiteURL": "https://mcreator.net",
+    "license": "Apache License version 2.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.4",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.theender",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}

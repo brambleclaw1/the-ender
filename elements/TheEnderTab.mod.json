@@ -1,0 +1,11 @@
+{
+  "_fv": 43,
+  "_type": "tab",
+  "definition": {
+    "name": "The Ender+",
+    "icon": {
+      "value": "Items.ENDER_EYE"
+    },
+    "showSearch": false
+  }
+}
