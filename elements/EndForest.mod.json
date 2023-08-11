@@ -77,7 +77,8 @@
     },
     "defaultFeatures": [
       "Caves",
-      "Ores"
+      "Ores",
+      "EndHighlandsBiome"
     ],
     "spawnStronghold": false,
     "spawnMineshaft": false,

@@ -4,8 +4,8 @@
   "definition": {
     "structure": "amethysttree",
     "randomlyRotateStructure": true,
-    "surfaceDetectionType": "First motion blocking block",
-    "spawnProbability": 100000,
+    "surfaceDetectionType": "First block",
+    "spawnProbability": 200000,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Ground",

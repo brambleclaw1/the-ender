@@ -107,6 +107,30 @@
         ]
       },
       "path": "~/Structures"
+    },
+    {
+      "name": "RenderSkies",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "render_skies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theender/procedures/RenderSkiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "pose",
+            "type": "pose"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
     }
   ],
   "variable_elements": [],

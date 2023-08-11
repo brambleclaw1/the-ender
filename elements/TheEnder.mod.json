@@ -30,7 +30,7 @@
     "hasFog": false,
     "isDark": true,
     "doesWaterVaporize": false,
-    "sleepResult": "ALLOW",
+    "sleepResult": "BED_EXPLODES",
     "hasSkyLight": false,
     "imitateOverworldBehaviour": false,
     "portalFrame": {
