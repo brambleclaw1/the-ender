@@ -27,26 +27,6 @@
       }
     },
     {
-      "name": "EnderPortalEntityCollidesInTheBlock",
-      "type": "procedure",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ender_portal_entity_collides_in_the_block",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/theender/procedures/EnderPortalEntityCollidesInTheBlockProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
       "name": "EnderPortal",
       "type": "block",
       "sortid": 4,
@@ -90,15 +70,62 @@
         ]
       },
       "path": "~/Biomes"
+    },
+    {
+      "name": "EnderPortalOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_portal_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theender/procedures/EnderPortalOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "AmethystTree",
+      "type": "structure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_tree",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_ender/worldgen/configured_feature/amethyst_tree.json",
+          "src/main/resources/data/the_ender/worldgen/placed_feature/amethyst_tree.json",
+          "src/main/java/net/mcreator/theender/world/features/AmethystTreeFeature.java",
+          "src/main/resources/data/the_ender/forge/biome_modifier/amethyst_tree_biome_modifier.json"
+        ]
+      },
+      "path": "~/Structures"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "sweden_epic",
+      "files": [
+        "minecraft_epic"
+      ],
+      "category": "music",
+      "subtitle": ""
+    }
+  ],
   "language_map": {
     "en_us": {
       "block.the_ender.ender_portal": "Ender Portal",
       "biome.the_ender.end_forest": "End Forest",
-      "item_group.the_ender.the_ender_tab": "The Ender+"
+      "item_group.the_ender.the_ender_tab": "The Ender+",
+      "subtitles.sweden_epic": ""
     }
   },
   "foldersRoot": {
@@ -118,6 +145,10 @@
       },
       {
         "name": "Biomes",
+        "children": []
+      },
+      {
+        "name": "Structures",
         "children": []
       }
     ]

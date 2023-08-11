@@ -1,0 +1,10 @@
+{
+  "sweden_epic": {
+    "sounds": [
+      {
+        "name": "the_ender:minecraft_epic",
+        "stream": true
+      }
+    ]
+  }
+}

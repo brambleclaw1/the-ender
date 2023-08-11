@@ -29,7 +29,9 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.theender.init.TheEnderModSounds;
 import net.mcreator.theender.init.TheEnderModItems;
+import net.mcreator.theender.init.TheEnderModFeatures;
 import net.mcreator.theender.init.TheEnderModBlocks;
 
 import java.util.function.Supplier;
@@ -49,9 +51,11 @@ public class TheEnderMod {
 	public TheEnderMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		TheEnderModSounds.REGISTRY.register(bus);
 		TheEnderModBlocks.REGISTRY.register(bus);
 		TheEnderModItems.REGISTRY.register(bus);
+
+		TheEnderModFeatures.REGISTRY.register(bus);
 
 	}
 

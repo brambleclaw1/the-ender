@@ -3,6 +3,12 @@
   "temperature": 0.5,
   "downfall": 0.5,
   "effects": {
+    "music": {
+      "sound": "the_ender:sweden_epic",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": true
+    },
     "foliage_color": 10387789,
     "grass_color": 9470285,
     "sky_color": -6750055,

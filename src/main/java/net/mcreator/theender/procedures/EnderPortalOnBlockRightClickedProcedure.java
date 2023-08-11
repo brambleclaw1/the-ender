@@ -14,7 +14,7 @@ import net.minecraft.network.protocol.game.ClientboundGameEventPacket;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.core.BlockPos;
 
-public class EnderPortalEntityCollidesInTheBlockProcedure {
+public class EnderPortalOnBlockRightClickedProcedure {
 	public static void execute(Entity entity) {
 		if (entity == null)
 			return;

@@ -117,8 +117,8 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onEntityCollides": {
-      "name": "EnderPortalEntityCollidesInTheBlock"
+    "onRightClicked": {
+      "name": "EnderPortalOnBlockRightClicked"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

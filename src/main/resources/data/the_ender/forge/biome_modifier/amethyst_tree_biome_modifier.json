@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "the_ender:end_forest",
+    "end_barrens"
+  ],
+  "features": "the_ender:amethyst_tree",
+  "step": "surface_structures"
+}
