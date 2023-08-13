@@ -131,6 +131,39 @@
         ]
       },
       "path": "~/Procedures"
+    },
+    {
+      "name": "BlockOfAmber",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_amber",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_ender/blockstates/block_of_amber.json",
+          "src/main/resources/assets/the_ender/models/block/block_of_amber.json",
+          "src/main/resources/assets/the_ender/models/item/block_of_amber.json",
+          "src/main/java/net/mcreator/theender/block/BlockOfAmberBlock.java"
+        ]
+      },
+      "path": "~/Block"
+    },
+    {
+      "name": "AmberForests",
+      "type": "biome",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_forests",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_ender/worldgen/biome/amber_forests.json",
+          "src/main/resources/data/the_ender/worldgen/placed_feature/amber_forests_tree.json",
+          "src/main/resources/data/the_ender/worldgen/configured_feature/amber_forests_tree.json"
+        ]
+      },
+      "path": "~/Biomes"
     }
   ],
   "variable_elements": [],
@@ -142,13 +175,24 @@
       ],
       "category": "music",
       "subtitle": ""
+    },
+    {
+      "name": "aria_math_remix",
+      "files": [
+        "aria_math_remix"
+      ],
+      "category": "music",
+      "subtitle": ""
     }
   ],
   "language_map": {
     "en_us": {
       "block.the_ender.ender_portal": "Ender Portal",
+      "block.the_ender.block_of_amber": "Block Of Amber",
       "biome.the_ender.end_forest": "End Forest",
       "item_group.the_ender.the_ender_tab": "The Ender+",
+      "biome.the_ender.amber_forests": "Amber Forests",
+      "subtitles.aria_math_remix": "",
       "subtitles.sweden_epic": ""
     }
   },
@@ -173,6 +217,10 @@
       },
       {
         "name": "Structures",
+        "children": []
+      },
+      {
+        "name": "Block",
         "children": []
       }
     ]

@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "the_ender:ender_portal"
+    "the_ender:ender_portal",
+    "the_ender:block_of_amber"
   ]
 }

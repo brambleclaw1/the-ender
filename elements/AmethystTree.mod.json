@@ -15,7 +15,14 @@
     "spawnWorldTypes": [
       "CUSTOM:TheEnder"
     ],
-    "restrictionBlocks": [],
+    "restrictionBlocks": [
+      {
+        "value": "Blocks.END_STONE"
+      },
+      {
+        "value": "Blocks.AMETHYST_BLOCK"
+      }
+    ],
     "restrictionBiomes": [
       {
         "value": "CUSTOM:EndForest"

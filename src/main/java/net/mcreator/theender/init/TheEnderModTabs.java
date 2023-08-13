@@ -28,6 +28,7 @@ public class TheEnderModTabs {
 		event.registerCreativeModeTab(new ResourceLocation("the_ender", "the_ender_tab"),
 				builder -> builder.title(Component.translatable("item_group.the_ender.the_ender_tab")).icon(() -> new ItemStack(Items.ENDER_EYE)).displayItems((parameters, tabData) -> {
 					tabData.accept(TheEnderModBlocks.ENDER_PORTAL.get().asItem());
+					tabData.accept(TheEnderModBlocks.BLOCK_OF_AMBER.get().asItem());
 				})
 
 		);

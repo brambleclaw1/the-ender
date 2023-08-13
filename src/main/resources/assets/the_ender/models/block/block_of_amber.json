@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_ender:block/amber_block",
+    "up": "the_ender:block/amber_block",
+    "north": "the_ender:block/amber_block",
+    "east": "the_ender:block/amber_block",
+    "south": "the_ender:block/amber_block",
+    "west": "the_ender:block/amber_block",
+    "particle": "the_ender:block/amber_block"
+  },
+  "render_type": "solid"
+}

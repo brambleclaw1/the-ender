@@ -11,9 +11,11 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.theender.block.EnderPortalBlock;
+import net.mcreator.theender.block.BlockOfAmberBlock;
 import net.mcreator.theender.TheEnderMod;
 
 public class TheEnderModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, TheEnderMod.MODID);
 	public static final RegistryObject<Block> ENDER_PORTAL = REGISTRY.register("ender_portal", () -> new EnderPortalBlock());
+	public static final RegistryObject<Block> BLOCK_OF_AMBER = REGISTRY.register("block_of_amber", () -> new BlockOfAmberBlock());
 }
